@@ -46,8 +46,15 @@
 
         <dependency>
             <groupId>org.openjfx</groupId>
-            <artifactId>javafx-archetype-simple</artifactId>
-            <version>0.0.3</version>
+            <artifactId>javafx</artifactId>
+            <version>18</version>
+            <type>pom</type>
+        </dependency>
+        <!--JavaFX-controls-->
+        <dependency>
+            <groupId>org.openjfx</groupId>
+            <artifactId>javafx-controls</artifactId>
+            <version>18</version>
         </dependency>
 
     </dependencies>
